@@ -23,7 +23,7 @@ This is a simple RESTful API that returns my profile information along with a ra
 
 - 1.Clone the repository
 ```bash
-git clone https://github.com/yourusername/profile-endpoint.git
+git clone https://github.com/jibbola007/hng13-profile-endpoint.git
 cd hng13-profile-endpoint
 
 2.Install dependencies
