@@ -5,7 +5,7 @@ const cors = require('cors');
 const app = express();
 app.use(cors());
 
-const PORT = process.env.PORT || 8080;
+
 
 app.get('/me', async (req, res) => {
   try {
@@ -39,6 +39,8 @@ app.get('/me', async (req, res) => {
   }
 });
 
-app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
+const PORT = process.env.PORT || 8080;
+
+app.listen(PORT, "0.0.0.0", () => {
+  console.log(`✅ Server running on port ${PORT}`);
 });
